@@ -13,7 +13,7 @@ export async function PokemonPages(num) {
   await ajax({
     url: `${api.POKEMON}${num}`,
     success: async (data) => {
-      console.log(data)
+      
       
       for (let i = 0; i < data.results.length; i++) {
         const pokemon = data.results[i];

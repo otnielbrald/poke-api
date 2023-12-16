@@ -12,7 +12,7 @@ export async function Pokemon(name) {
   await ajax({
     url: `${api.POKEMON_ID}${name}`,
     success: async (pokemon) => {
-      console.log(pokemon);
+      
       
       
       $pokes.innerHTML = await PokeDatos(pokemon)      

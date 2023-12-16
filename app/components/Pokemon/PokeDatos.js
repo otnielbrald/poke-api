@@ -1,7 +1,7 @@
 // import { ajax } from "../../helpers/ajax.js"
 import { firstUpperCase } from "../../helpers/first-upper-case.js"
-import { Abilities } from "./abilities/abilities.js"
-import { Species } from "./species/species.js"
+import { Abilities } from "./abilities/Abilities.js"
+import { Species } from "./species/Species.js"
 import { Types } from "./types/Types.js"
 
 

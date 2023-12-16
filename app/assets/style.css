@@ -176,6 +176,8 @@ form nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 form {
   text-align: center;
@@ -190,4 +192,15 @@ form {
 }
 .btn-left {
   display: inline-block;
+}
+
+a {
+  color: orange;
+  padding: 0.2rem;
+}
+.searching-link {
+  color: midnightblue;
+  padding: .3rem 5rem;
+  background-color: lightgrey;
+  width: 15%;
 }

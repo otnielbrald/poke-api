@@ -12,7 +12,7 @@ export  async function TypesPage(name) {
   await ajax({
     url: `${api.TYPES_ID}${name}`,
     success: async (dataType) => {
-      console.log(dataType);
+      
       h2 = `<h2>Pokemons that have the ${firstUpperCase(dataType.name)} type</h2>`
       for (let i = 0; i < dataType.pokemon.length; i++) {
         const element = dataType.pokemon[i];
